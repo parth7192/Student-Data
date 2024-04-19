@@ -11,6 +11,6 @@ class AppRoute {
     splashScreen: (context) => const SplashScreen(),
     homePage: (context) => const HomePage(),
     detailsPage: (context) => const DetailsPage(),
-    adddataPage: (context) => AddDataPage(),
+    adddataPage: (context) => const AddDataPage(),
   };
 }
